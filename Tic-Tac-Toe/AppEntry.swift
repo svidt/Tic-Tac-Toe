@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct Tic_Tac_ToeApp: App {
+struct AppEntry: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartView()
         }
     }
 }
