@@ -25,8 +25,7 @@ struct StartView: View {
                 Text("Challenge A Friend").tag(GameType.peer)
             }
             .padding()
-            .background(RoundedRectangle(cornerRadius: 10, style: .continuous).stroke(lineWidth: 2))
-//            .accentColor(.primary)
+            .background(RoundedRectangle(cornerRadius: 10, style: .continuous).stroke(lineWidth: 2).foregroundColor(.accentColor))
             Text(gameType.description)
                 .padding()
             VStack {
