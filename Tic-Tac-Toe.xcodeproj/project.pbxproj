@@ -111,8 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				68FE928E29E85F55004EC41A /* GameView.swift */,
-				68FE929029E96EDF004EC41A /* GameService.swift */,
 				68FE929229E98904004EC41A /* GameSquare.swift */,
+				68FE929029E96EDF004EC41A /* GameService.swift */,
 				68FE929429E98A21004EC41A /* SquareView.swift */,
 			);
 			path = "Game Screen";
