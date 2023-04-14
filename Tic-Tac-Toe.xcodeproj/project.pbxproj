@@ -18,6 +18,8 @@
 		68FE928C29E85CE3004EC41A /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FE928B29E85CE3004EC41A /* ViewModifiers.swift */; };
 		68FE928F29E85F55004EC41A /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FE928E29E85F55004EC41A /* GameView.swift */; };
 		68FE929129E96EDF004EC41A /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FE929029E96EDF004EC41A /* GameService.swift */; };
+		68FE929329E98904004EC41A /* GameSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FE929229E98904004EC41A /* GameSquare.swift */; };
+		68FE929529E98A21004EC41A /* SquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FE929429E98A21004EC41A /* SquareView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		68FE928B29E85CE3004EC41A /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 		68FE928E29E85F55004EC41A /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		68FE929029E96EDF004EC41A /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
+		68FE929229E98904004EC41A /* GameSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSquare.swift; sourceTree = "<group>"; };
+		68FE929429E98A21004EC41A /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 			children = (
 				68FE928E29E85F55004EC41A /* GameView.swift */,
 				68FE929029E96EDF004EC41A /* GameService.swift */,
+				68FE929229E98904004EC41A /* GameSquare.swift */,
+				68FE929429E98A21004EC41A /* SquareView.swift */,
 			);
 			path = "Game Screen";
 			sourceTree = "<group>";
@@ -191,6 +197,8 @@
 				68FE929129E96EDF004EC41A /* GameService.swift in Sources */,
 				68FE928C29E85CE3004EC41A /* ViewModifiers.swift in Sources */,
 				68FE928F29E85F55004EC41A /* GameView.swift in Sources */,
+				68FE929329E98904004EC41A /* GameSquare.swift in Sources */,
+				68FE929529E98A21004EC41A /* SquareView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
