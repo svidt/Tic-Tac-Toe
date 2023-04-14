@@ -13,9 +13,9 @@ class GameService: ObservableObject {
     @Published var player1 = Player(gamePiece: .x, name: "Player 1")
     @Published var player2 = Player(gamePiece: .o, name: "Player 2")
     @Published var possibleMoves = Move.all
-    @Published var movesTaken = [Int]()
     @Published var gameOver = false
     @Published var gameBoard = GameSquare.reset
+    @Published var isThinking = false
     
     var gameType = GameType.single
     
@@ -32,7 +32,7 @@ class GameService: ObservableObject {
     }
     
     var boardDisabled: Bool {
-        gameOver || !gameStarted
+        gameOver || !gameStarted || isThinking
     }
     
     func setupGame(gameType: GameType, player1Name: String, player2Name: String) {
@@ -42,6 +42,7 @@ class GameService: ObservableObject {
             player2.name = player2Name
         case .bot:
             self.gameType = .bot
+            player2.name = UIDevice.current.name
         case .peer:
             self.gameType = .peer
         case .undetermined:
@@ -53,7 +54,6 @@ class GameService: ObservableObject {
         func reset() {
             player1.isCurrent = false
             player2.isCurrent = false
-            movesTaken.removeAll()
             player1.moves.removeAll()
             player2.moves.removeAll()
             gameOver = false
@@ -93,6 +93,11 @@ class GameService: ObservableObject {
                     possibleMoves.remove(at: matchingIndex)
                 }
                 toggleCurrent()
+                if gameType == .bot && currentPlayer.name == player2.name {
+                    Task {
+                        await deviceMove()
+                    }
+                }
             }
             if possibleMoves.isEmpty {
                 gameOver = true
@@ -100,4 +105,14 @@ class GameService: ObservableObject {
         }
     }
     
+    func deviceMove() async {
+        isThinking.toggle()
+        try? await Task.sleep(nanoseconds: 1_000_000_000)
+        if let move = possibleMoves.randomElement() {
+            if let matchingIndex = Move.all.firstIndex(where: {$0 == move}) {
+                makeMove(at: matchingIndex)
+            }
+        }
+        isThinking.toggle()
+    }
 }
