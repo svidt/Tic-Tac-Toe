@@ -17,6 +17,7 @@
 		68FE928929E856D1004EC41A /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FE928829E856D1004EC41A /* GameModels.swift */; };
 		68FE928C29E85CE3004EC41A /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FE928B29E85CE3004EC41A /* ViewModifiers.swift */; };
 		68FE928F29E85F55004EC41A /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FE928E29E85F55004EC41A /* GameView.swift */; };
+		68FE929129E96EDF004EC41A /* GameService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FE929029E96EDF004EC41A /* GameService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		68FE928829E856D1004EC41A /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
 		68FE928B29E85CE3004EC41A /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 		68FE928E29E85F55004EC41A /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		68FE929029E96EDF004EC41A /* GameService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				68FE928E29E85F55004EC41A /* GameView.swift */,
+				68FE929029E96EDF004EC41A /* GameService.swift */,
 			);
 			path = "Game Screen";
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				68FE927629E851BE004EC41A /* StartView.swift in Sources */,
 				68FE928929E856D1004EC41A /* GameModels.swift in Sources */,
 				68FE927429E851BE004EC41A /* AppEntry.swift in Sources */,
+				68FE929129E96EDF004EC41A /* GameService.swift in Sources */,
 				68FE928C29E85CE3004EC41A /* ViewModifiers.swift in Sources */,
 				68FE928F29E85F55004EC41A /* GameView.swift in Sources */,
 			);

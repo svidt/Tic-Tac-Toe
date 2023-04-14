@@ -9,6 +9,8 @@ import SwiftUI
 
 struct StartView: View {
     
+    @EnvironmentObject var game: GameService
+    
     @State private var gameType: GameType = .undetermined
     @State private var yourName: String = ""
     @State private var opponentName: String = ""
@@ -74,5 +76,6 @@ struct StartView: View {
 struct StartView_Previews: PreviewProvider {
     static var previews: some View {
         StartView()
+            .environmentObject(GameService())
     }
 }

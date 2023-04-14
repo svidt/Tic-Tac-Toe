@@ -9,6 +9,7 @@ import SwiftUI
 
 struct GameView: View {
     
+    @EnvironmentObject var game: GameService
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
@@ -31,5 +32,6 @@ struct GameView: View {
 struct GameView_Previews: PreviewProvider {
     static var previews: some View {
         GameView()
+            .environmentObject(GameService())
     }
 }
