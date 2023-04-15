@@ -2,7 +2,7 @@
 //  Tic_Tac_ToeApp.swift
 //  Tic-Tac-Toe
 //
-//  Created by Kristian Emil Hansen Svidt on 13/04/2023.
+//  Created by Svidt on 13/04/2023.
 //
 
 import SwiftUI
@@ -10,12 +10,17 @@ import SwiftUI
 @main
 struct AppEntry: App {
     
+    @AppStorage("yourName") var yourName = ""
     @StateObject var game = GameService()
     
     var body: some Scene {
         WindowGroup {
-            StartView()
-                .environmentObject(game)
+            if yourName.isEmpty {
+                YourNameView()
+            } else {
+                StartView(yourName: yourName)
+                    .environmentObject(game)
+            }
         }
     }
 }

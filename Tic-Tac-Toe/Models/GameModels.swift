@@ -2,7 +2,7 @@
 //  GameModels.swift
 //  Tic-Tac-Toe
 //
-//  Created by Kristian Emil Hansen Svidt on 13/04/2023.
+//  Created by Svidt on 13/04/2023.
 //
 
 import SwiftUI
