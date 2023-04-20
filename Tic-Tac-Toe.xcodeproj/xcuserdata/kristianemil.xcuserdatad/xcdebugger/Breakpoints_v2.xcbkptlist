@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4622CD81-2CED-476E-8FF4-BDDA4CF89D75"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F033DCC-2FB2-4506-80F5-1C46F76414DC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tic-Tac-Toe/MultiPeerConnectivity/MPPeersView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "MPPeersView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "1F033DCC-2FB2-4506-80F5-1C46F76414DC - 49ea87acc4685d24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tic_Tac_Toe.MPPeersView.game.getter : Tic_Tac_Toe.GameService"
+                  moduleName = "Tic-Tac-Toe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kristianemil/Library/CloudStorage/Dropbox/App%20Dev/GitHub/Tic-Tac-Toe/Tic-Tac-Toe/MultiPeerConnectivity/MPPeersView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "87">
+               </Location>
+               <Location
+                  uuid = "1F033DCC-2FB2-4506-80F5-1C46F76414DC - b8bbd1ed37dbd572"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tic_Tac_Toe.MPPeersView.$game.getter : SwiftUI.EnvironmentObject&lt;Tic_Tac_Toe.GameService&gt;.Wrapper"
+                  moduleName = "Tic-Tac-Toe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kristianemil/Library/CloudStorage/Dropbox/App%20Dev/GitHub/Tic-Tac-Toe/Tic-Tac-Toe/MultiPeerConnectivity/MPPeersView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "87">
+               </Location>
+               <Location
+                  uuid = "1F033DCC-2FB2-4506-80F5-1C46F76414DC - 49ea87acc4685d24"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tic_Tac_Toe.MPPeersView.game.getter : Tic_Tac_Toe.GameService"
+                  moduleName = "Tic-Tac-Toe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kristianemil/Library/CloudStorage/Dropbox/App%20Dev/GitHub/Tic-Tac-Toe/Tic-Tac-Toe/MultiPeerConnectivity/MPPeersView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  uuid = "1F033DCC-2FB2-4506-80F5-1C46F76414DC - b8bbd1ed37dbd572"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tic_Tac_Toe.MPPeersView.$game.getter : SwiftUI.EnvironmentObject&lt;Tic_Tac_Toe.GameService&gt;.Wrapper"
+                  moduleName = "Tic-Tac-Toe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kristianemil/Library/CloudStorage/Dropbox/App%20Dev/GitHub/Tic-Tac-Toe/Tic-Tac-Toe/MultiPeerConnectivity/MPPeersView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "92">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
